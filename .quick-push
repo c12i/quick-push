@@ -1,0 +1,4 @@
+
+# This is pretty much it...
+
+alias qpush="git add . && git commit -m $(date +"%Y-%m-%d_%H-%M") && git push origin $(git_current_branch)
