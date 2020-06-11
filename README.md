@@ -15,7 +15,7 @@
 ```sh
 git clone https://github.com/collinsmuriuki/quick-push.git ~/
 
-cd ~ && echo "source ~/quick-push/.quick-push" >> .bash_profile
+cd ~ && echo "source ~/quick-push/.quick-push" >> .bash_profile && soure ~/.bashrc
 ```
 
 ## Usage
