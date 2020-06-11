@@ -30,7 +30,7 @@ qpush
 
 ## Author
 
-👤 **collinsmuriuki**
+🧑🏾‍💻 **collinsmuriuki**
 
 * Website: https://muriuki.dev
 * Github: [@collinsmuriuki](https://github.com/collinsmuriuki)
