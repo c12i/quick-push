@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> Quickly commit & push your code. Recommended for use in personal/ private projects
+> Quickly commit & push your code to your remote repository with a single command. Recommended for use in personal/ private projects
 
 ## Install
 
