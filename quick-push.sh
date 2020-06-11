@@ -6,5 +6,5 @@ if [ -z $* ]
     then
         git add . && git commit -m $(date +"%Y-%m-%d_%H-%M") && git push origin $git_current_branch
     else
-        git add . && git commit -m $* && git push origin $git_current_branch
+        git add . && git commit -m %1 && git push origin $git_current_branch
 fi
