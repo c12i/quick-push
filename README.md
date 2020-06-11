@@ -8,15 +8,14 @@
   </a>
 </p>
 
-> Quickly commit & push your code, unconventionaly 🌚
-> Recommended for use with personal/ private projects
+> Quickly commit & push your code. Recommended for use in personal/ private projects
 
 ## Install
 
 ```sh
 git clone https://github.com/collinsmuriuki/quick-push.git ~/
 
-cd ~ && echo source ~/quick-push/.quick-push >> .bash_profile
+cd ~ && echo "source ~/quick-push/.quick-push" >> .bash_profile
 ```
 
 ## Usage
