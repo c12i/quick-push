@@ -13,7 +13,7 @@
 ## Install
 
 ```sh
-git clone https://github.com/collinsmuriuki/quick-push.git ~/
+git clone https://github.com/collinsmuriuki/quick-push.git ~/quick-push
 
 cd ~ && echo "source ~/quick-push/.quick-push" >> .bash_profile && source ~/.bash_profile
 ```
