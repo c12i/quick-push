@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> Quickly commit & push code to your remote repository with a single command. Recommended for use in personal/ private projects where commit messages are not a major priority
+> Quickly commit & push code to your remote repository with a single command.
 
 ## Install
 
@@ -19,7 +19,11 @@ echo "source ~/quick-push/.quick-push" >> ~/.bash_profile && source ~/.bash_prof
 ```
 
 ## Usage
-
+With custom commit message
+```sh
+qpush "<your commit message>"
+```
+Without commit message. Timestamp will be default commit message in this case
 ```sh
 qpush
 ```
