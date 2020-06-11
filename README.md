@@ -1,8 +1,5 @@
 <h1 align="center">quick-push ䷭</h1>
 <p>
-  <a href="https://www.npmjs.com/package/quick-push" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/quick-push.svg">
-  </a>
   <a href="README.md" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
