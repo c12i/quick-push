@@ -27,8 +27,9 @@ Without commit message. Timestamp will be default commit message in this case
 ```sh
 qpush
 ```
-<img src="/assets/qpush.gif" alt="animated gif">
-
+<h1 align="center">
+  <img src="/assets/qpush.gif" alt="animated gif">
+</h1>
 ## Author
 
 🧑🏾‍💻 **collinsmuriuki**
