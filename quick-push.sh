@@ -2,7 +2,7 @@
 
 git_current_branch=`echo $(git symbolic-ref -q HEAD) | cut -d "/" -f 3`
 
-if [ -z $* ]
+if [ $# -eq 0 ]
     then
         git add . && git commit -m $(date +"%Y-%m-%d_%H-%M") && git push origin $git_current_branch
     else
