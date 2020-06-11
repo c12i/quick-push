@@ -30,6 +30,7 @@ qpush
 <h1 align="center">
   <img src="/assets/qpush.gif" alt="animated gif">
 </h1>
+
 ## Author
 
 🧑🏾‍💻 **collinsmuriuki**
