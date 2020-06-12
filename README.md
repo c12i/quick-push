@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> Quickly commit & push code to your remote repository with a single command.
+> Quickly commit & push code(current branch) to your remote repository with a single command.
 
 ## Install
 
@@ -23,7 +23,7 @@ With custom commit message
 ```sh
 qpush "<your commit message>"
 ```
-Without commit message. Timestamp will be default commit message in this case
+Without commit message. Timestamp will be the default commit message. (Use in projects where commit messages are not a priority) 
 ```sh
 qpush
 ```
