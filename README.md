@@ -8,7 +8,8 @@
   </a>
 </p>
 
-> Quickly commit & push code(current branch) to your remote repository with a single command.
+> Quickly commit & push code(current branch) to your remote repository with a single command. 
+> Tested on zsh and bash.
 
 ## Install
 
@@ -19,6 +20,7 @@ echo "source ~/quick-push/.quick-push" >> ~/.bash_profile && source ~/.bash_prof
 ```
 
 ## Usage
+
 With custom commit message
 ```sh
 qpush "<your commit message>"
