@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> Quickly commit & push code(current branch) to your remote repository with a single command. 
+> Quickly commit & push code(current branch) to your remote repository with a single command. The script will stage, commit and push code if a remote repository exists under `origin`, otherwise, it will only stage and commit the code.
 > Tested on zsh and bash.
 
 ## Install
