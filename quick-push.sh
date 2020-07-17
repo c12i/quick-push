@@ -22,7 +22,6 @@ function commit_and_push() {
 }
 
 case $remote in
-
   "fatal: not a git repository (or any of the parent directories): .git")
     only_commit
     ;;
