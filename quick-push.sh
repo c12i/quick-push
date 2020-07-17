@@ -2,6 +2,7 @@
 
 remote=`git remote`
 working_git_branch=`echo $(git symbolic-ref -q HEAD) | cut -d "/" -f 3`
+fatal="fatal: not a git repository (or any of the parent directories): .git"
 
 function only_commit() {
     if [ $# -eq 0 ]
@@ -22,11 +23,12 @@ function commit_and_push() {
 }
 
 case $remote in
-  "fatal: not a git repository (or any of the parent directories): .git")
+  fatal)
     only_commit
+    echo "No remote repo, only committing"
     ;;
 
-  "origin")
+  origin)
     commit_and_push
     ;;
 
