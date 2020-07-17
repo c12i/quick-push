@@ -26,6 +26,10 @@ case $remote in
     only_commit
     ;;
 
+  "origin")
+    commit_and_push
+    ;;
+
   *)
     commit_and_push
     ;;
